@@ -13,10 +13,9 @@ from sumy.summarizers.lex_rank import LexRankSummarizer
 from sumy.summarizers.luhn import LuhnSummarizer
 import pandas as pd
 import io
-from transformers import pipeline
 from googletrans import Translator
 from gtts import gTTS
-from playsound import playsound
+
 import os
 nltk.download('punkt')
 
